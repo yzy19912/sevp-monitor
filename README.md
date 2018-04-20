@@ -1,8 +1,10 @@
 # SEVP History Monitor
 
-A script that monitors and notifies SEVP profile changes which is an indicator of H-1B lottery status. It monitors the number of profile change history and sends notification when new change history is found.
+A script that monitors and notifies SEVP profile changes, which could be an indicator of H-1B lottery status.
 
-The script uses all built-in modules.
+It monitors the number of profile change history and sends notification when new change history is found.
+
+Uses only built-in modules.
 
 ## Screenshots
 
