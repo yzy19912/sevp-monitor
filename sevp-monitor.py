@@ -60,10 +60,10 @@ def start_monitor():
             send_notification_email()
             sys.exit(0)
         else:
-            datetime_str = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+            datetime_str = datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
             print('[INFO]', datetime_str, 'Number of history items:', num_history)
 
-        time.sleep(60) # Check once per minute
+        time.sleep(300) # Check once per five minutes
 
 
 # Login and get a jwt
@@ -156,5 +156,5 @@ def send_notification_email():
     print('[INFO] Email sent')
 
 # Entry point
-if __name__ == "__main__":
+if __name__ == '__main__':
     start_monitor()
