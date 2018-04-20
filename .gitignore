@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# macOS
+.DS_Store
+
+# Script w/ credentials
+sevp-monitor_0.py
