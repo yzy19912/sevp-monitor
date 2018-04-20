@@ -21,7 +21,7 @@ Email notification
 
 #### 1. Configure
 
-Configure your SEVP login email and password (**required**)
+Modify `sevp-monitor.py`, configure your SEVP login email and password (**required**)
 
 ```python
 # SEVP user configurations
